@@ -5,18 +5,18 @@ Libreria de componentes - prueba
 ## Installation
 
 ```sh
-npm install components_test
+npm install components_test_jhohells
 ```
 
 ## Usage
 
 
 ```js
-import { multiply } from 'components_test';
+import {RideButton} from 'components_test_jhohells';
 
 // ...
 
-const result = await multiply(3, 7);
+<RideButton title="Button" onPress={ () => {} } />
 ```
 
 
